@@ -12,22 +12,22 @@ public class Utama {
 
     public static void main(String[] args) {
 
-        KendaraanPribadi mobil = new Mobil();
-        KendaraanPribadi motor = new Motor();
+        Mobil sedan = new Mobil();
+        Motor beat = new Motor();
 
         // print jenis kendaraan (Override)
-        mobil.tampilkanJenis();
-        motor.tampilkanJenis();
+        sedan.tampilkanJenis();
+        beat.tampilkanJenis();
 
         // print informasi kendaraan (Overload)
         System.out.println("");
         System.out.println("Informasi Mobil :");
-        mobil.tampilkanInfo();
-        mobil.tampilkanInfo("Merah");
+        sedan.tampilkanInfo();
+        sedan.tampilkanInfo("Merah");
 
         System.out.println("");
         System.out.println("Informasi Motor :");
-        motor.tampilkanInfo();
-        motor.tampilkanInfo("Hitam");
+        beat.tampilkanInfo();
+        beat.tampilkanInfo("Hitam");
     }
 }
