@@ -28,5 +28,6 @@ contoh : ` public abstract void suara();`
 2. `Overload` memungkinkan penggunaan metode yang sama dengan parameter berbeda.
 3. `Class Abstract` menyediakan kerangka dasar yang harus diimplementasikan oleh subclass, yang sangat berguna dalam proyek CRUD.
 
+Semoga penjelasan diatas dapat membantu memahami materi dalam tugas pertemuan 3 mata kuliah Pemrograman Berorientasi Objek ini.
 
 
